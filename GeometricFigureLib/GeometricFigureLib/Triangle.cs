@@ -39,5 +39,15 @@ namespace GeometricFigureLib
             var t = (Triangle)obj;
             return t != null && t._sides.SequenceEqual(_sides);
         }
+
+        protected bool Equals(Triangle other)
+        {
+            return Equals(_sides, other._sides);
+        }
+
+        public override int GetHashCode()
+        {
+            return (_sides != null ? _sides.GetHashCode() : 0);
+        }
     }
 }
