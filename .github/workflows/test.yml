@@ -12,16 +12,15 @@ jobs:
     steps:
     # checkout the repo
     - name: 'Checkout Github Action'
-      uses: actions/checkout@main
+    - uses: actions/checkout@main
 
     - name: Set up .NET Core
       uses: actions/setup-dotnet@v1
       with:
         dotnet-version: '5.0.x'
-
-    - name: Moving to project
-      working-directory: ./GeometricFigureLib 
+       
     - name: Install dependencies
+      working-directory: ./GeometricFigureLib
       run: dotnet restore
     - name: Build
       working-directory: ./GeometricFigureLib 
