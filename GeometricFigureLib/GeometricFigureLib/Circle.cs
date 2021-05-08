@@ -16,7 +16,7 @@ namespace GeometricFigureLib
             return Math.Pow(_radius, 2) * Math.PI;
         }
         
-        public override bool Equals(object? obj)
+        public override bool Equals(object obj)
         {
             var t = (Circle)obj;
             return t != null && t._radius.Equals(_radius);

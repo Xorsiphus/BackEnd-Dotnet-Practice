@@ -34,7 +34,7 @@ namespace GeometricFigureLib
                    Math.Abs(powC + powB - powA) < 0.0000001;
         }
         
-        public override bool Equals(object? obj)
+        public override bool Equals(object obj)
         {
             var t = (Triangle)obj;
             return t != null && t._sides.SequenceEqual(_sides);
