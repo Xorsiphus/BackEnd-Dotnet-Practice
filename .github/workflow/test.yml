@@ -1,0 +1,33 @@
+name: Test for GFL
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+    # checkout the repo
+    - name: 'Checkout Github Action'
+      uses: actions/checkout@main
+
+    - name: Set up .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: '5.0.x'
+
+    - name: Moving to project
+      working-directory: ./GeometricFigureLib 
+    - name: Install dependencies
+      run: dotnet restore
+    - name: Build
+      working-directory: ./GeometricFigureLib 
+      run: dotnet build --configuration Release --no-restore
+    - name: Test
+      working-directory: ./GeometricFigureLib 
+      run: dotnet test --no-restore --verbosity normal
+
+      
