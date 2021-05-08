@@ -1,0 +1,11 @@
+GeometricFigureLib/.idea/
+GeometricFigureLib/GeometricFigureLib/bin/
+GeometricFigureLib/GeometricFigureLib/obj/
+
+GeometricFigureLib/TestsForGFL/bin/
+GeometricFigureLib/TestsForGFL/obj/
+
+LibraryExecutor/bin/
+LibraryExecutor/obj/
+
+*.user

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometricFigureLib", "GeometricFigureLib\GeometricFigureLib.csproj", "{CF8DC14A-0B4E-4D9F-9EB3-3171900B7AFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryExecutor", "..\LibraryExecutor\LibraryExecutor.csproj", "{BA29462A-EDBD-4997-BAF4-FE26BD6D5387}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestsForGFL", "TestsForGFL\TestsForGFL.csproj", "{FB7C7E34-8E87-4901-ABB7-64B2D080386A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF8DC14A-0B4E-4D9F-9EB3-3171900B7AFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF8DC14A-0B4E-4D9F-9EB3-3171900B7AFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF8DC14A-0B4E-4D9F-9EB3-3171900B7AFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF8DC14A-0B4E-4D9F-9EB3-3171900B7AFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA29462A-EDBD-4997-BAF4-FE26BD6D5387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA29462A-EDBD-4997-BAF4-FE26BD6D5387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA29462A-EDBD-4997-BAF4-FE26BD6D5387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA29462A-EDBD-4997-BAF4-FE26BD6D5387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB7C7E34-8E87-4901-ABB7-64B2D080386A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB7C7E34-8E87-4901-ABB7-64B2D080386A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB7C7E34-8E87-4901-ABB7-64B2D080386A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB7C7E34-8E87-4901-ABB7-64B2D080386A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
