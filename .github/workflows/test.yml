@@ -29,5 +29,3 @@ jobs:
     - name: Test
       working-directory: ./GeometricFigureLib 
       run: dotnet test --no-restore --verbosity normal
-
-      
